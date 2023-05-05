@@ -70,6 +70,7 @@ import os
 ctypes.windll.shcore.SetProcessDpiAwareness(True)
 # Setup Tkinter
 root = Tk()
+#fuck_you_editor
 """)
 editArea.bind('<KeyRelease>', changes)
 root.bind('<Control-r>', execute)
